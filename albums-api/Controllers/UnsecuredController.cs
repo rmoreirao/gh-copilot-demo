@@ -41,16 +41,8 @@ namespace UnsecureApp.Controllers
 
         public void GetObject()
         {
-            try
-            {
-                object o = null;
-                o.ToString();
-            }
-            catch (Exception e)
-            {
-                this.Response.Write(e.ToString());
-            }
-        
+            object o = null;
+            o.ToString();
         }
 
         private string connectionString = "";
